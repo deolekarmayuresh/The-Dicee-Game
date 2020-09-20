@@ -17,3 +17,7 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
+// if player 1 wins
+if (randomNumber1 > randomNumber2) {
+    document.querySelectorAll("h1").innerHTML = "🚩Congrats, Player 1 Wins!🏆"    
+}
