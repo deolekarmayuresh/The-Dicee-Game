@@ -8,3 +8,8 @@ var randomImageSource = "images/" + randomDiceImage; // generates images from so
 var image1 = document.querySelectorAll("img")[0]; // selecting css attribute
 
 image1.setAttribute("src", randomImageSource);
+
+// Player 2 Right side dice code
+
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
