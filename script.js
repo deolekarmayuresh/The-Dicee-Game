@@ -19,7 +19,7 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
-setInterval(function() {
+// setInterval(function() {
 // if player 1 wins
 if (randomNumber1 > randomNumber2) {
     document.querySelector("h3").innerHTML = "🚩Congrats, Player 1 Wins!🏆";
@@ -31,4 +31,4 @@ else { //if it's a draw
     document.querySelector("h3").innerHTML = "It's a tie!🤝";
 }
 
-}, 400);
+// }, 400);
