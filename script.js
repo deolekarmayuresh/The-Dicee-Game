@@ -24,6 +24,6 @@ if (randomNumber1 > randomNumber2) {
 else if (randomNumber2 > randomNumber1) { // if player 2 wins
     document.querySelector("h3").innerHTML = "Congrats, Player 2 Wins!🚩🏆";
 }
-else { //if its a draw
+else { //if it's a draw
     document.querySelector("h3").innerHTML = "It's a tie!🤝";
 }
