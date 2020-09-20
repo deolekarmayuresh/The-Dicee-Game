@@ -1,3 +1,5 @@
+alert("Welcome to play the Dice Game");
+
 //Player 1 left side dice code
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; // generates dice numbers from 1-6
 
