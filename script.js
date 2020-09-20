@@ -19,11 +19,11 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 // if player 1 wins
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "🚩Congrats, Player 1 Wins!🏆";
+    document.querySelector("h3").innerHTML = "🚩Congrats, Player 1 Wins!🏆";
 }
 else if (randomNumber2 > randomNumber1) { // if player 2 wins
-    document.querySelector("h1").innerHTML = "Congrats, Player 2 Wins!🚩🏆";
+    document.querySelector("h3").innerHTML = "Congrats, Player 2 Wins!🚩🏆";
 }
 else { //if its a draw
-    document.querySelector("h1").innerHTML = "It's a tie!🤝";
+    document.querySelector("h3").innerHTML = "It's a tie!🤝";
 }
