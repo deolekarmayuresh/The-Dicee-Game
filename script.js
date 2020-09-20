@@ -21,6 +21,9 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 if (randomNumber1 > randomNumber2) {
     document.querySelectorAll("h1").innerHTML = "🚩Congrats, Player 1 Wins!🏆"    
 }
-else if (randomNumber2 > randomNumber1) {
+else if (randomNumber2 > randomNumber1) { // if player 2 wins
     document.querySelectorAll("h1").innerHTML = "Congrats, Player 2 Wins!🚩🏆"
+}
+else { //if its a draw
+    document.querySelectorAll("h1").innerHTML = "It's a tie!🤝"
 }
