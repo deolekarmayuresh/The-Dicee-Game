@@ -14,11 +14,11 @@ body {
   background-color: #1d1a1aec;
 }
 
-h1 {
+h3 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 3rem;
   color: #1dffc6;
 }
 
