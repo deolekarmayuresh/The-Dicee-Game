@@ -1,3 +1,3 @@
 # The Dicee Game
 
-## To play Refresh the page to roll the Dicee
+## To play refresh the page to roll the Dicee
